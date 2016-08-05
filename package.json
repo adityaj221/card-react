@@ -1,16 +1,16 @@
 {
   "name": "card-react",
-  "version": "1.1.20",
+  "version": "1.2.1",
   "description": "Add an interactive credit card animation to your payment form.",
   "main": "lib/card-react-form-container.js",
   "dependencies": {
     "classnames": "^2.1.2",
-    "payment": "2.0.1",
+    "payment": "2.0.3npm version",
     "react": "^15.2.1",
     "react-dom": "^15.2.1"
   },
   "devDependencies": {
-    "bourbon": "^4.2.3",
+    "bourbon": "^4.2.7",
     "browserify": "^13.0.1",
     "coffee-react": "^5.0.0",
     "coffee-reactify": "^5.0.0",
@@ -29,7 +29,10 @@
     "uglify-save-license": "^0.4.1"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/grunt dev",
+    "clean": "node_modules/.bin/grunt clean",
+    "build": "node_modules/.bin/grunt build"
   },
   "repository": {
     "type": "git",
